@@ -1,0 +1,27 @@
+|ripple_carry_adder
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+cin => cin.IN1
+sum[0] << full_adder:f1.port3
+sum[1] << full_adder:f2.port3
+c_out << full_adder:f2.port4
+
+
+|ripple_carry_adder|full_adder:f1
+a => Decoder0.IN0
+b => Decoder0.IN1
+c_in => Decoder0.IN2
+sum <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder|full_adder:f2
+a => Decoder0.IN0
+b => Decoder0.IN1
+c_in => Decoder0.IN2
+sum <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+

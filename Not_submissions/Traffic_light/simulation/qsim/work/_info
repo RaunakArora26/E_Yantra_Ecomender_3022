@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dell/Desktop/Traffic_light/simulation/qsim
+vhard_block
+Z1 !s110 1724916879
+!i10b 1
+!s100 0L6GC@PgHB`eamEHg8;n80
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IF7P[?@8o_ZNZL2zFd;Tg>2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1724916876
+Z5 8Traffi_light_controller.vo
+Z6 FTraffi_light_controller.vo
+!i122 0
+L0 408 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1724916879.000000
+Z9 !s107 Traffi_light_controller.vo|
+Z10 !s90 -work|work|Traffi_light_controller.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vtraffic_light_controller
+R1
+!i10b 1
+!s100 YBP0Fdj1hk5D5C<=in1^l3
+R2
+I:0dYO5@91l>G1D904z_0n1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 375
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vtraffic_light_controller_vlg_vec_tst
+R1
+!i10b 1
+!s100 G_EPn0><?S3L>nZ3[^@`_0
+R2
+I24fmeHRJP[o2U@A_NAk_G2
+R3
+R0
+w1724916875
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 30
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12

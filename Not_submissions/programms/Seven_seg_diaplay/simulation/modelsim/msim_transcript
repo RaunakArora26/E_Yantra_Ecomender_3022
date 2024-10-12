@@ -1,0 +1,62 @@
+# Reading pref.tcl
+# Load canceled
+# do Seven_seg_display_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/programms/Seven_seg_diaplay {C:/Users/dell/Desktop/programms/Seven_seg_diaplay/seven_segment.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:02:47 on Aug 29,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/programms/Seven_seg_diaplay" C:/Users/dell/Desktop/programms/Seven_seg_diaplay/seven_segment.v 
+# -- Compiling module seven_segment
+# 
+# Top level modules:
+# 	seven_segment
+# End time: 14:02:47 on Aug 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/programms/Seven_seg_diaplay {C:/Users/dell/Desktop/programms/Seven_seg_diaplay/tb_seven_segment.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:02:47 on Aug 29,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/programms/Seven_seg_diaplay" C:/Users/dell/Desktop/programms/Seven_seg_diaplay/tb_seven_segment.v 
+# -- Compiling module tb_seven_segment
+# 
+# Top level modules:
+# 	tb_seven_segment
+# End time: 14:02:48 on Aug 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 14:02:48 on Aug 29,2024
+# ** Error: (vsim-3170) Could not find 'tb'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/dell/Desktop/programms/Seven_seg_diaplay/simulation/modelsim/rtl_work
+#             C:/Users/dell/Desktop/programms/Seven_seg_diaplay/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Seven_seg_display_run_msim_rtl_verilog.do PAUSED at line 12
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" work.tb_seven_segment
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" work.tb_seven_segment 
+# Start time: 14:02:48 on Aug 29,2024
+# Loading work.tb_seven_segment
+# Loading work.seven_segment
+add wave  \
+sim:/tb_seven_segment/bcd
+add wave  \
+sim:/tb_seven_segment/display
+run -all

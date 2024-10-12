@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dell/Desktop/task_0/AND_GATE/simulation/qsim
+vand_gate
+!s110 1724895753
+!i10b 1
+!s100 [92>DQ_m<c7NiiFf]>O6a3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJ4f;2A21L9UGXA8GQeP8:1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1724895751
+8AND_GATE.vo
+FAND_GATE.vo
+!i122 4
+L0 32 74
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1724895753.000000
+!s107 AND_GATE.vo|
+!s90 -work|work|AND_GATE.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vand_gate_vlg_vec_tst
+!s110 1724895754
+!i10b 1
+!s100 HUOBRFYM:11J7MdZIkhD;0
+R1
+IPzRVJ6R>Aze8WOGdF2;:D1
+R2
+R0
+w1724895749
+8And_gate_waveform.vwf.vt
+FAnd_gate_waveform.vwf.vt
+!i122 5
+L0 30 36
+R3
+r1
+!s85 0
+31
+R4
+!s107 And_gate_waveform.vwf.vt|
+!s90 -work|work|And_gate_waveform.vwf.vt|
+!i113 1
+R5
+R6

@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dell/Desktop/programms/Seven_seg_diaplay/simulation/modelsim
+vseven_segment
+!s110 1724920367
+!i10b 1
+!s100 <Zd7cMQMDRmDhnWd1WILg0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ITm?eU<?kIHWU70@338cW22
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1724918962
+8C:/Users/dell/Desktop/programms/Seven_seg_diaplay/seven_segment.v
+FC:/Users/dell/Desktop/programms/Seven_seg_diaplay/seven_segment.v
+!i122 0
+L0 4 36
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1724920367.000000
+!s107 C:/Users/dell/Desktop/programms/Seven_seg_diaplay/seven_segment.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/programms/Seven_seg_diaplay|C:/Users/dell/Desktop/programms/Seven_seg_diaplay/seven_segment.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/dell/Desktop/programms/Seven_seg_diaplay
+Z7 tCvgOpt 0
+vtb_seven_segment
+!s110 1724920368
+!i10b 1
+!s100 _A7n^27fc;:]J;PL;j^M53
+R1
+IBb15I9cL6U=V8X1Umdm@S3
+R2
+R0
+w1724919242
+8C:/Users/dell/Desktop/programms/Seven_seg_diaplay/tb_seven_segment.v
+FC:/Users/dell/Desktop/programms/Seven_seg_diaplay/tb_seven_segment.v
+!i122 1
+L0 3 25
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/dell/Desktop/programms/Seven_seg_diaplay/tb_seven_segment.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/programms/Seven_seg_diaplay|C:/Users/dell/Desktop/programms/Seven_seg_diaplay/tb_seven_segment.v|
+!i113 1
+R5
+R6
+R7

@@ -1,0 +1,17 @@
+module two_way_switch_tb();
+
+reg s1,s2;
+wire z;
+
+two_way_switch dut(s1,s2,z);
+
+intial begin
+	s1=0;s2=0;#100;
+	s1=0;s2=1;#100;
+	s1=1;s2=0;#100;
+	s1=1;s2=1;#100;
+	$finish;
+end
+
+
+endmodule

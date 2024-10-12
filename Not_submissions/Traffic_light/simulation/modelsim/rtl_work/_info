@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dell/Desktop/Traffic_light/simulation/modelsim
+vtb
+Z1 !s110 1724917288
+!i10b 1
+!s100 Db2O@o5?1FT^TD05XgMhb3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8LNZ]@=K?O6dQR@VdFO5n2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1724916997
+8C:/Users/dell/Desktop/Traffic_light/tb.v
+FC:/Users/dell/Desktop/Traffic_light/tb.v
+!i122 1
+L0 3 12
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1724917288.000000
+!s107 C:/Users/dell/Desktop/Traffic_light/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Traffic_light|C:/Users/dell/Desktop/Traffic_light/tb.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Traffic_light
+Z7 tCvgOpt 0
+vtraffic_light_controller
+R1
+!i10b 1
+!s100 S`LikLijfbz24W>U`IMnX1
+R2
+ImG6]F?ES2GGIDe[cFL:?12
+R3
+R0
+w1724916053
+8C:/Users/dell/Desktop/Traffic_light/traffic_light_controller.v
+FC:/Users/dell/Desktop/Traffic_light/traffic_light_controller.v
+!i122 0
+L0 3 34
+R4
+r1
+!s85 0
+31
+!s108 1724917287.000000
+!s107 C:/Users/dell/Desktop/Traffic_light/traffic_light_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Traffic_light|C:/Users/dell/Desktop/Traffic_light/traffic_light_controller.v|
+!i113 1
+R5
+R6
+R7

@@ -1,0 +1,77 @@
+# Reading pref.tcl
+# do Universal_shift_reg_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/programms/Shift_reg {C:/Users/dell/Desktop/programms/Shift_reg/universal_shift_register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:56:55 on Aug 29,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/programms/Shift_reg" C:/Users/dell/Desktop/programms/Shift_reg/universal_shift_register.v 
+# -- Compiling module universal_shift_register
+# 
+# Top level modules:
+# 	universal_shift_register
+# End time: 17:56:55 on Aug 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/programms/Shift_reg {C:/Users/dell/Desktop/programms/Shift_reg/universal_shift_register_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:56:55 on Aug 29,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/programms/Shift_reg" C:/Users/dell/Desktop/programms/Shift_reg/universal_shift_register_tb.v 
+# -- Compiling module universal_shift_register_tb
+# 
+# Top level modules:
+# 	universal_shift_register_tb
+# End time: 17:56:55 on Aug 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 17:56:55 on Aug 29,2024
+# ** Error: (vsim-3170) Could not find 'tb'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/dell/Desktop/programms/Shift_reg/simulation/modelsim/rtl_work
+#             C:/Users/dell/Desktop/programms/Shift_reg/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Universal_shift_reg_run_msim_rtl_verilog.do PAUSED at line 12
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" work.universal_shift_register_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" work.universal_shift_register_tb 
+# Start time: 17:56:55 on Aug 29,2024
+# Loading work.universal_shift_register_tb
+# Loading work.universal_shift_register
+add wave  \
+sim:/universal_shift_register_tb/i
+add wave  \
+sim:/universal_shift_register_tb/sel
+add wave  \
+sim:/universal_shift_register_tb/clk
+add wave  \
+sim:/universal_shift_register_tb/rst
+add wave  \
+sim:/universal_shift_register_tb/il
+add wave  \
+sim:/universal_shift_register_tb/ir
+add wave  \
+sim:/universal_shift_register_tb/out_bit
+run -all
+add wave  \
+sim:/universal_shift_register_tb/out_bit
+# Break key hit
+# Break in Module universal_shift_register_tb at C:/Users/dell/Desktop/programms/Shift_reg/universal_shift_register_tb.v line 17
+# End time: 18:20:35 on Aug 29,2024, Elapsed time: 0:23:40
+# Errors: 1, Warnings: 0

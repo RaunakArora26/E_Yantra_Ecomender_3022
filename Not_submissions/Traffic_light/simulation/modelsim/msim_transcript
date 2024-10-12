@@ -1,0 +1,52 @@
+# Reading pref.tcl
+# do Traffi_light_controller_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Traffic_light {C:/Users/dell/Desktop/Traffic_light/traffic_light_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:11:27 on Aug 29,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Traffic_light" C:/Users/dell/Desktop/Traffic_light/traffic_light_controller.v 
+# -- Compiling module traffic_light_controller
+# 
+# Top level modules:
+# 	traffic_light_controller
+# End time: 13:11:28 on Aug 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Traffic_light {C:/Users/dell/Desktop/Traffic_light/tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:11:28 on Aug 29,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Traffic_light" C:/Users/dell/Desktop/Traffic_light/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:11:28 on Aug 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 13:11:28 on Aug 29,2024
+# Loading work.tb
+# Loading work.traffic_light_controller
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave  \
+sim:/tb/clock
+# Break key hit
+# Simulation stop requested.
+# End time: 13:15:04 on Aug 29,2024, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 0

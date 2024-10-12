@@ -1,0 +1,172 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dell/Desktop/E-yantra/eb_3022_task1/t1a_fs_pwm/simulation/qsim
+vfrequency_scaler
+Z1 !s110 1725498913
+!i10b 1
+!s100 YAn]o3BH;FYRVJon9N<TX1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<g2jn;L?FPW:Z?kogi;7D2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1725498912
+Z4 8t1a_fs_pwm.vo
+Z5 Ft1a_fs_pwm.vo
+!i122 14
+L0 32 417
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1725498913.000000
+Z8 !s107 t1a_fs_pwm.vo|
+Z9 !s90 -work|work|t1a_fs_pwm.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vfrequency_scaler_vlg_vec_tst
+R1
+!i10b 1
+!s100 i`hD3g`hOS;2CL@hl_?[i0
+R2
+IDJ^lWe43_JFoBF?k=Bf@@1
+R3
+R0
+w1725498911
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 15
+L0 30 26
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+Z12 !s110 1725724662
+!i10b 1
+!s100 fN`fPF@@Hj:2KQozRiHU62
+R2
+Ij<49K:WW<J:hjZQmiY0E10
+R3
+Z13 dC:/Users/dell/Desktop/E-yantra/eb_3022_task1a/t1a_fs_pwm/simulation/qsim
+Z14 w1725724661
+R4
+R5
+!i122 18
+L0 1535 34
+R6
+r1
+!s85 0
+31
+Z15 !s108 1725724662.000000
+R8
+R9
+!i113 1
+R10
+R11
+vt1a_fs_pwm
+!s110 1725456356
+!i10b 1
+!s100 JZI61ahh8fg<3TDT437UJ0
+R2
+IRWoPeknEVf1cC<jmd3GHS2
+R3
+R0
+w1725456355
+R4
+R5
+!i122 2
+L0 32 145
+R6
+r1
+!s85 0
+31
+!s108 1725456356.000000
+R8
+R9
+!i113 1
+R10
+R11
+vt1a_fs_pwm_bdf
+R12
+!i10b 1
+!s100 T3RF?=e`5VGN4nJ5l=2fX1
+R2
+I2i^8Si7g?j0NmcEm53V<V3
+R3
+R13
+R14
+R4
+R5
+!i122 18
+L0 32 1502
+R6
+r1
+!s85 0
+31
+R15
+R8
+R9
+!i113 1
+R10
+R11
+vt1a_fs_pwm_bdf_vlg_vec_tst
+R12
+!i10b 1
+!s100 73M:VA2@IIk9KbQ9ZkQiI1
+R2
+IKQa2TWAzz]WaYXAZ=TX4f3
+R3
+R13
+w1725724660
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+!i122 19
+L0 30 38
+R6
+r1
+!s85 0
+31
+R15
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11
+vt1a_fs_pwm_vlg_vec_tst
+!s110 1725456357
+!i10b 1
+!s100 R9i<zQKi2n^HFDPE_Ue==2
+R2
+IkcFV4]:UXfYX?z1U_PBR?1
+R3
+R0
+w1725456354
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 52
+R6
+r1
+!s85 0
+31
+!s108 1725456357.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11

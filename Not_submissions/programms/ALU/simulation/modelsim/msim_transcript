@@ -1,0 +1,108 @@
+# Reading pref.tcl
+# do ALU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/programms/ALU {C:/Users/dell/Desktop/programms/ALU/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:42:46 on Aug 29,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/programms/ALU" C:/Users/dell/Desktop/programms/ALU/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 18:42:46 on Aug 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/programms/ALU {C:/Users/dell/Desktop/programms/ALU/tb_ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:42:46 on Aug 29,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/programms/ALU" C:/Users/dell/Desktop/programms/ALU/tb_ALU.v 
+# -- Compiling module tb_ALU
+# 
+# Top level modules:
+# 	tb_ALU
+# End time: 18:42:46 on Aug 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 18:42:46 on Aug 29,2024
+# ** Error: (vsim-3170) Could not find 'tb'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/dell/Desktop/programms/ALU/simulation/modelsim/rtl_work
+#             C:/Users/dell/Desktop/programms/ALU/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ALU_run_msim_rtl_verilog.do PAUSED at line 12
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" work.tb_ALU
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" work.tb_ALU 
+# Start time: 18:42:46 on Aug 29,2024
+# Loading work.tb_ALU
+# Loading work.ALU
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 's'. The port definition is at: C:/Users/dell/Desktop/programms/ALU/ALU.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ALU/uut File: C:/Users/dell/Desktop/programms/ALU/tb_ALU.v Line: 11
+run -all
+# ** Note: $stop    : C:/Users/dell/Desktop/programms/ALU/tb_ALU.v(47)
+#    Time: 599 ps  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at C:/Users/dell/Desktop/programms/ALU/tb_ALU.v line 47
+add wave  \
+sim:/tb_ALU/a \
+sim:/tb_ALU/b \
+sim:/tb_ALU/s \
+sim:/tb_ALU/clk \
+sim:/tb_ALU/en \
+sim:/tb_ALU/y \
+sim:/tb_ALU/carry \
+sim:/tb_ALU/zero
+run -all
+add wave  \
+sim:/tb_ALU/a \
+sim:/tb_ALU/b \
+sim:/tb_ALU/s \
+sim:/tb_ALU/clk \
+sim:/tb_ALU/en \
+sim:/tb_ALU/y \
+sim:/tb_ALU/carry \
+sim:/tb_ALU/zero
+# Break key hit
+# Break in Module tb_ALU at C:/Users/dell/Desktop/programms/ALU/tb_ALU.v line 20
+run -all
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" work.tb_ALU
+# End time: 18:48:53 on Aug 29,2024, Elapsed time: 0:06:07
+# Errors: 1, Warnings: 1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" work.tb_ALU 
+# Start time: 18:48:53 on Aug 29,2024
+# Loading work.tb_ALU
+# Loading work.ALU
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 's'. The port definition is at: C:/Users/dell/Desktop/programms/ALU/ALU.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ALU/uut File: C:/Users/dell/Desktop/programms/ALU/tb_ALU.v Line: 11
+add wave  \
+sim:/tb_ALU/a \
+sim:/tb_ALU/b \
+sim:/tb_ALU/s \
+sim:/tb_ALU/clk \
+sim:/tb_ALU/en \
+sim:/tb_ALU/y \
+sim:/tb_ALU/carry \
+sim:/tb_ALU/zero
+run -all
+# ** Note: $stop    : C:/Users/dell/Desktop/programms/ALU/tb_ALU.v(47)
+#    Time: 599 ps  Iteration: 0  Instance: /tb_ALU
+# Break in Module tb_ALU at C:/Users/dell/Desktop/programms/ALU/tb_ALU.v line 47
+# End time: 18:53:58 on Aug 29,2024, Elapsed time: 0:05:05
+# Errors: 0, Warnings: 1

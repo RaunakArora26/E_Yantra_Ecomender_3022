@@ -1,0 +1,29 @@
+|universal_shift_register
+i[0] => Mux3.IN0
+i[1] => Mux2.IN0
+i[2] => Mux1.IN0
+i[3] => Mux0.IN0
+sel[0] => Mux0.IN2
+sel[0] => Mux1.IN2
+sel[0] => Mux2.IN2
+sel[0] => Mux3.IN2
+sel[1] => Mux0.IN1
+sel[1] => Mux1.IN1
+sel[1] => Mux2.IN1
+sel[1] => Mux3.IN1
+clk => out_bit[0]~reg0.CLK
+clk => out_bit[1]~reg0.CLK
+clk => out_bit[2]~reg0.CLK
+clk => out_bit[3]~reg0.CLK
+rst => out_bit[0]~reg0.ACLR
+rst => out_bit[1]~reg0.ACLR
+rst => out_bit[2]~reg0.ACLR
+rst => out_bit[3]~reg0.ACLR
+il => Mux3.IN3
+ir => Mux0.IN3
+out_bit[0] << out_bit[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out_bit[1] << out_bit[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out_bit[2] << out_bit[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out_bit[3] << out_bit[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

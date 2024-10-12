@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out_bit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "il",
+					"strict" : false
+				},
+				{
+					"name" : "i[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "sel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i[2]",
+					"strict" : false
+				},
+				{
+					"name" : "i[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ir",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

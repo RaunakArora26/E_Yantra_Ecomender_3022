@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at frequency_scaler.v(33): always construct contains both blocking and non-blocking assignments File: C:/Users/dell/Desktop/E-yantra/eb_3022_task1/t1a_fs_pwm/code/frequency_scaler.v Line: 33

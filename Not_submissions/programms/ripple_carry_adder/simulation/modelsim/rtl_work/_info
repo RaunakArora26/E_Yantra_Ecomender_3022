@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dell/Desktop/programms/ripple_carry_adder/simulation/modelsim
+vfull_adder
+!s110 1724979766
+!i10b 1
+!s100 ?]NPCIVo31IcDUI5]?KET1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1hMhC83bHMQmU2UTR899F3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1724979368
+8C:/Users/dell/Desktop/programms/ripple_carry_adder/full_adder.v
+FC:/Users/dell/Desktop/programms/ripple_carry_adder/full_adder.v
+!i122 0
+L0 3 23
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1724979766.000000
+!s107 C:/Users/dell/Desktop/programms/ripple_carry_adder/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/programms/ripple_carry_adder|C:/Users/dell/Desktop/programms/ripple_carry_adder/full_adder.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/dell/Desktop/programms/ripple_carry_adder
+Z6 tCvgOpt 0
+vripple_carry_adder
+Z7 !s110 1724979767
+!i10b 1
+!s100 :nThmnAaYoz1QWT6nI_m02
+R1
+IK<7El7D6eZT22g40m9e5Q2
+R2
+R0
+w1724979391
+8C:/Users/dell/Desktop/programms/ripple_carry_adder/ripple_carry_adder.v
+FC:/Users/dell/Desktop/programms/ripple_carry_adder/ripple_carry_adder.v
+!i122 1
+L0 1 13
+R3
+r1
+!s85 0
+31
+Z8 !s108 1724979767.000000
+!s107 C:/Users/dell/Desktop/programms/ripple_carry_adder/ripple_carry_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/programms/ripple_carry_adder|C:/Users/dell/Desktop/programms/ripple_carry_adder/ripple_carry_adder.v|
+!i113 1
+R4
+R5
+R6
+vtb_ripple_carry_adder
+R7
+!i10b 1
+!s100 T9;ic3;;C0ozWl`L7AEdX2
+R1
+I02@f;C<DWK5_I;gLConM33
+R2
+R0
+w1724979445
+8C:/Users/dell/Desktop/programms/ripple_carry_adder/tb_ripple_carry_adder.v
+FC:/Users/dell/Desktop/programms/ripple_carry_adder/tb_ripple_carry_adder.v
+!i122 2
+L0 3 17
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/dell/Desktop/programms/ripple_carry_adder/tb_ripple_carry_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/programms/ripple_carry_adder|C:/Users/dell/Desktop/programms/ripple_carry_adder/tb_ripple_carry_adder.v|
+!i113 1
+R4
+R5
+R6
