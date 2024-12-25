@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/simulation/modelsim
 vadder
-Z1 !s110 1731086795
+Z1 !s110 1731756384
 !i10b 1
 !s100 jXE67fZjiCj2W4l?`i:H?0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,7 +26,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1731086795.000000
+Z6 !s108 1731756384.000000
 !s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/adder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/adder.v|
 !i113 1
@@ -98,7 +98,7 @@ R5
 r1
 !s85 0
 31
-R6
+Z10 !s108 1731756383.000000
 !s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/controller.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/controller.v|
 !i113 1
@@ -106,7 +106,7 @@ R7
 R8
 R9
 vdata_mem
-Z10 !s110 1731086793
+Z11 !s110 1731756382
 !i10b 1
 !s100 LEWXXhS6C[1ImT[n:>QWD2
 R2
@@ -122,15 +122,15 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1731086793.000000
+Z12 !s108 1731756382.000000
 !s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/data_mem.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/data_mem.v|
 !i113 1
 R7
-Z12 !s92 -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code
+Z13 !s92 -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code
 R9
 vdatapath
-Z13 !s110 1731086794
+Z14 !s110 1731756383
 !i10b 1
 !s100 dMWP_nP62m>06k>8UM7f33
 R2
@@ -146,7 +146,7 @@ R5
 r1
 !s85 0
 31
-Z14 !s108 1731086794.000000
+R10
 !s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/datapath.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/datapath.v|
 !i113 1
@@ -154,7 +154,7 @@ R7
 R8
 R9
 vimm_extend
-R13
+R14
 !i10b 1
 !s100 KCY0HN8a_SDDT@o^3341e2
 R2
@@ -170,7 +170,7 @@ R5
 r1
 !s85 0
 31
-R14
+R10
 !s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/imm_extend.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/imm_extend.v|
 !i113 1
@@ -199,10 +199,10 @@ R6
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/instr_mem.v|
 !i113 1
 R7
-R12
+R13
 R9
 vmain_decoder
-R13
+R14
 !i10b 1
 !s100 `87Z73M__^Q2V4Oz_:`oY3
 R2
@@ -218,7 +218,7 @@ R5
 r1
 !s85 0
 31
-R14
+R10
 !s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/main_decoder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/main_decoder.v|
 !i113 1
@@ -226,7 +226,7 @@ R7
 R8
 R9
 vmux2
-R13
+R14
 !i10b 1
 !s100 O<Ld`3jD6QL?6PIEe_QAk1
 R2
@@ -242,7 +242,7 @@ R5
 r1
 !s85 0
 31
-R14
+R10
 !s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/mux2.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/mux2.v|
 !i113 1
@@ -250,7 +250,7 @@ R7
 R8
 R9
 vmux4
-R13
+R14
 !i10b 1
 !s100 V4YdM>hK^I8CMb?cH8Cej3
 R2
@@ -266,7 +266,7 @@ R5
 r1
 !s85 0
 31
-R11
+R10
 !s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/mux4.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/mux4.v|
 !i113 1
@@ -274,7 +274,7 @@ R7
 R8
 R9
 vreg_file
-R10
+R11
 !i10b 1
 !s100 z2]InGk0[gjzdlc7_WWYI1
 R2
@@ -290,7 +290,7 @@ R5
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/reg_file.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/reg_file.v|
 !i113 1
@@ -298,7 +298,7 @@ R7
 R8
 R9
 vreset_ff
-R10
+R11
 !i10b 1
 !s100 c1I5T0L8]]ZK0dn2hg0_F0
 R2
@@ -314,7 +314,7 @@ R5
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/reset_ff.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/reset_ff.v|
 !i113 1
@@ -322,7 +322,7 @@ R7
 R8
 R9
 vriscv_cpu
-R10
+R11
 !i10b 1
 !s100 [W7DL6^nUe<<EE8jo;2Gk3
 R2
@@ -338,15 +338,15 @@ R5
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/riscv_cpu.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/riscv_cpu.v|
 !i113 1
 R7
-R12
+R13
 R9
 vt1c_riscv_cpu
-R10
+R11
 !i10b 1
 !s100 `L7;7GaohSTmh_zF>C3[Q3
 R2
@@ -362,12 +362,12 @@ R5
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/t1c_riscv_cpu.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/t1c_riscv_cpu.v|
 !i113 1
 R7
-R12
+R13
 R9
 vtb
 R1

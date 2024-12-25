@@ -1,3 +1,4 @@
+//MINE
 /*
 * EcoMender Bot (EB): Task 2B Path Planner
 *
@@ -76,9 +77,9 @@ int main(int argc, char const *argv[]) {
     // Path planning and variable declaration setup
     #ifdef __linux__
         uint32_t graph[32];
-        uint8_t i = 0;  
-        uint8_t j;
-        uint8_t k;
+        // uint8_t i = 0;  
+        // uint8_t j;
+        // uint8_t k;
         uint8_t prev[32];
         uint8_t dist[32];
         uint8_t path_planned[32];
@@ -86,9 +87,9 @@ int main(int argc, char const *argv[]) {
 
     #else
         uint32_t *graph = (uint32_t *) 0x02000010;
-        uint8_t i = ((volatile uint8_t ) 0x02000090);
-        uint8_t j = ((volatile uint8_t) 0x02000091);
-        uint8_t k = ((volatile uint8_t) 0x02000092);
+        // uint8_t i = ((volatile uint8_t ) 0x02000090);
+        // uint8_t j = ((volatile uint8_t) 0x02000091);
+        // uint8_t k = ((volatile uint8_t) 0x02000092);
         uint8_t *prev = ( uint8_t *) 0x020000b1;
         uint8_t *dist = ( uint8_t *) 0x020000D0;
         uint8_t *path_planned = ( uint8_t *) 0x020000ef;
@@ -106,17 +107,17 @@ int main(int argc, char const *argv[]) {
     graph[30]=2424307712; graph[31]=1073741824;
 
     // Initialize distance and previous arrays
-    for(i=0; i<V; i++) {
+    for(int i=0; i<V; i++) {
         dist[i] = 40;
         prev[i] = 255;
     }    
     dist[START_POINT] = 0;
 
     // Bellman-Ford-like edge relaxation
-    for(i=0; i<V-1; i++) {   
-        for(j=0; j<V; j++) {
+    for(int i=0; i<V-1; i++) {   
+        for(int j=0; j<V; j++) {
             // if (dist[j] != 40) {
-                for(k=0; k<V; k++) {
+                for(int k=0; k<V; k++) {
                     if((graph[j] & (1 <<(k)))) { 
                         if(dist[j] != 40 && dist[j] + 1 < dist[k]) {
                             dist[k] = dist[j] + 1;
@@ -130,21 +131,21 @@ int main(int argc, char const *argv[]) {
 
     // Backtracking to construct path from end to start
     idx = 0;
-    j = END_POINT;
+    int j = END_POINT;
     while (j != 255) {
         path_planned[idx++] = j;
         j = prev[j];
     }
 
     // Reverse path for correct order
-    for (i = 0, j = idx - 1; i < j; i++, j--) {
-        k = path_planned[i];
+    for (int i = 0, j = idx - 1; i < j; i++, j--) {
+        int k = path_planned[i];
         path_planned[i] = path_planned[j];
         path_planned[j] = k;
     }
 
     // Sequentially write path to NODE_POINT memory
-    for (i = 0; i < idx; ++i) {
+    for (int i = 0; i < idx; ++i) {
         NODE_POINT = path_planned[i];
     }
     CPU_DONE = 1;

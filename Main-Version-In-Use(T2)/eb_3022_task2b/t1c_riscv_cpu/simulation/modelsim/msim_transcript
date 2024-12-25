@@ -12,169 +12,169 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/t1c_riscv_cpu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:33 on Nov 08,2024
+# Start time: 16:56:22 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/t1c_riscv_cpu.v 
 # -- Compiling module t1c_riscv_cpu
 # 
 # Top level modules:
 # 	t1c_riscv_cpu
-# End time: 22:56:33 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:22 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/riscv_cpu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:33 on Nov 08,2024
+# Start time: 16:56:22 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/riscv_cpu.v 
 # -- Compiling module riscv_cpu
 # 
 # Top level modules:
 # 	riscv_cpu
-# End time: 22:56:33 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:22 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/data_mem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:33 on Nov 08,2024
+# Start time: 16:56:22 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/data_mem.v 
 # -- Compiling module data_mem
 # 
 # Top level modules:
 # 	data_mem
-# End time: 22:56:33 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:22 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/reset_ff.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:33 on Nov 08,2024
+# Start time: 16:56:22 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/reset_ff.v 
 # -- Compiling module reset_ff
 # 
 # Top level modules:
 # 	reset_ff
-# End time: 22:56:33 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:22 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/reg_file.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:33 on Nov 08,2024
+# Start time: 16:56:22 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/reg_file.v 
 # -- Compiling module reg_file
 # 
 # Top level modules:
 # 	reg_file
-# End time: 22:56:33 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:22 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/mux4.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:33 on Nov 08,2024
+# Start time: 16:56:23 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/mux4.v 
 # -- Compiling module mux4
 # 
 # Top level modules:
 # 	mux4
-# End time: 22:56:34 on Nov 08,2024, Elapsed time: 0:00:01
+# End time: 16:56:23 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/mux2.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:34 on Nov 08,2024
+# Start time: 16:56:23 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/mux2.v 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 22:56:34 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:23 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/main_decoder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:34 on Nov 08,2024
+# Start time: 16:56:23 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/main_decoder.v 
 # -- Compiling module main_decoder
 # 
 # Top level modules:
 # 	main_decoder
-# End time: 22:56:34 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:23 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/imm_extend.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:34 on Nov 08,2024
+# Start time: 16:56:23 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/imm_extend.v 
 # -- Compiling module imm_extend
 # 
 # Top level modules:
 # 	imm_extend
-# End time: 22:56:34 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:23 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/datapath.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:34 on Nov 08,2024
+# Start time: 16:56:23 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/datapath.v 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 22:56:34 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:23 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/controller.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:35 on Nov 08,2024
+# Start time: 16:56:23 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/controller.v 
 # -- Compiling module controller
 # 
 # Top level modules:
 # 	controller
-# End time: 22:56:35 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:24 on Nov 16,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/alu_decoder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:35 on Nov 08,2024
+# Start time: 16:56:24 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/alu_decoder.v 
 # -- Compiling module alu_decoder
 # 
 # Top level modules:
 # 	alu_decoder
-# End time: 22:56:35 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:24 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:35 on Nov 08,2024
+# Start time: 16:56:24 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 22:56:35 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:24 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/adder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:35 on Nov 08,2024
+# Start time: 16:56:24 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/components/adder.v 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 22:56:35 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:24 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/instr_mem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:35 on Nov 08,2024
+# Start time: 16:56:24 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/code/instr_mem.v 
 # -- Compiling module instr_mem
 # 
 # Top level modules:
 # 	instr_mem
-# End time: 22:56:35 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:24 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/.test {C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/.test/tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:56:35 on Nov 08,2024
+# Start time: 16:56:24 on Nov 16,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/.test" C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/.test/tb.v 
 # -- Compiling module tb
 # 
 # Top level modules:
 # 	tb
-# End time: 22:56:35 on Nov 08,2024, Elapsed time: 0:00:00
+# End time: 16:56:24 on Nov 16,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb 
-# Start time: 22:56:36 on Nov 08,2024
+# Start time: 16:56:25 on Nov 16,2024
 # Loading work.tb
 # Loading work.t1c_riscv_cpu
 # Loading work.riscv_cpu
@@ -215,7 +215,7 @@
 # 
 # No errors encountered, congratulations!
 # ** Note: $stop    : C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/.test/tb.v(183)
-#    Time: 1992465 ns  Iteration: 1  Instance: /tb
+#    Time: 1980005 ns  Iteration: 1  Instance: /tb
 # Break in Module tb at C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T2)/eb_3022_task2b/t1c_riscv_cpu/.test/tb.v line 183
-# End time: 22:57:40 on Nov 08,2024, Elapsed time: 0:01:04
+# End time: 14:56:55 on Nov 17,2024, Elapsed time: 22:00:30
 # Errors: 0, Warnings: 0

@@ -10,7 +10,7 @@ module main_decoder (
     output [1:0] ALUOp
 );
 
-reg [11:0] controls;
+
 
 always @(*) begin
     casez (op)
