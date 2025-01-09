@@ -1,0 +1,10 @@
+Link - https://youtu.be/D7v9yjRLKuk
+
+**eYRC Task-4 Video**  
+
+*Note:* Node 8 is not appearing in this video as I forgot to include the UART data for it. To demonstrate that the node is detected, the top module code uses an expectation-based state machine. If the expected condition is not met, the state machine does not proceed to the next state. In this case, the code includes an expected state for Node 8, which must be satisfied to move to Color_Patch2G. Recreating everything would require significant additional time, so I appreciate your understanding.  
+
+Additionally, I have one more request. Sir, could you please provide a descriptive comment for the code? I feel I may have overly complicated the LFA (Line Following Algorithm) to work with the broken line as well.
+
+Thank you🙂✨🥲
+EB_3022

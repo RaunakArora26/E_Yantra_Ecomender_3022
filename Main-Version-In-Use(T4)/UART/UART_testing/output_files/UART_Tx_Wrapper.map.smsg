@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at uart_tx.v(59): always construct contains both blocking and non-blocking assignments File: C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T4)/UART/UART_testing/uart_tx.v Line: 59
+Info (10281): Verilog HDL Declaration information at UART_Tx_Wrapper.v(6): object "start" differs only in case from object "START" in the same scope File: C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T4)/UART/UART_testing/UART_Tx_Wrapper.v Line: 6
+Info (10281): Verilog HDL Declaration information at UART_Tx_Wrapper.v(25): object "DATA" differs only in case from object "data" in the same scope File: C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T4)/UART/UART_testing/UART_Tx_Wrapper.v Line: 25

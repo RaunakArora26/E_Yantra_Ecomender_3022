@@ -1,0 +1,101 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// PROGRAM		"Quartus Prime"
+// VERSION		"Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
+// CREATED		"Tue Jan 07 01:52:11 2025"
+
+module Black_line_following(
+	clk,
+	dout,
+	ENA,
+	ENB,
+	IN1,
+	IN2,
+	IN3,
+	IN4,
+	adc_cs_n,
+	din,
+	adc_sclk
+);
+
+
+input wire	clk;
+input wire	dout;
+output wire	ENA;
+output wire	ENB;
+output wire	IN1;
+output wire	IN2;
+output wire	IN3;
+output wire	IN4;
+output wire	adc_cs_n;
+output wire	din;
+output wire	adc_sclk;
+
+wire	SYNTHESIZED_WIRE_9;
+wire	[11:0] SYNTHESIZED_WIRE_2;
+wire	[11:0] SYNTHESIZED_WIRE_3;
+wire	[11:0] SYNTHESIZED_WIRE_4;
+wire	[3:0] SYNTHESIZED_WIRE_6;
+wire	[3:0] SYNTHESIZED_WIRE_8;
+
+assign	adc_sclk = SYNTHESIZED_WIRE_9;
+
+
+
+
+Frequency_Scaling	b2v_inst(
+	.clk_50M(clk),
+	.adc_clk_out(SYNTHESIZED_WIRE_9));
+
+
+ADC_Controller	b2v_inst1(
+	.dout(dout),
+	.adc_sck(SYNTHESIZED_WIRE_9),
+	.adc_cs_n(adc_cs_n),
+	.din(din),
+	.center_value(SYNTHESIZED_WIRE_2),
+	.left_value(SYNTHESIZED_WIRE_3),
+	.right_value(SYNTHESIZED_WIRE_4));
+
+
+Black_Line	b2v_inst4(
+	.clk_3125KHz(SYNTHESIZED_WIRE_9),
+	.c(SYNTHESIZED_WIRE_2),
+	.l(SYNTHESIZED_WIRE_3),
+	.r(SYNTHESIZED_WIRE_4),
+	.IN1(IN1),
+	.IN2(IN2),
+	.IN3(IN3),
+	.IN4(IN4),
+	.pulse_widht_l(SYNTHESIZED_WIRE_6),
+	.pulse_widht_r(SYNTHESIZED_WIRE_8));
+
+
+pwm_generator	b2v_Left(
+	.clk_3125KHz(SYNTHESIZED_WIRE_9),
+	.pulse_width(SYNTHESIZED_WIRE_6),
+	
+	.pwm_signal(ENB));
+
+
+pwm_generator	b2v_Right(
+	.clk_3125KHz(SYNTHESIZED_WIRE_9),
+	.pulse_width(SYNTHESIZED_WIRE_8),
+	
+	.pwm_signal(ENA));
+
+
+endmodule

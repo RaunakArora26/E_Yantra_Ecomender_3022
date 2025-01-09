@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T4)/Motor_Driver/simulation/qsim
+vMotor_Driver
+!s110 1735766561
+!i10b 1
+!s100 NeQAo>OAC_1^g[zSOWaQG3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IMm1hk7gjeJ6jBaE8L?HF10
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1735766560
+8Motor_Driver.vo
+FMotor_Driver.vo
+!i122 4
+L0 32 2875
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1735766561.000000
+!s107 Motor_Driver.vo|
+!s90 -work|work|Motor_Driver.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@motor_@driver
+vMotor_Driver_vlg_vec_tst
+!s110 1735766562
+!i10b 1
+!s100 c@a9:<7;GW:?`V?A<Rh:T2
+R1
+ISLBlzU^U_2X^d>IKVdbgC0
+R2
+R0
+w1735766559
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 5
+L0 30 42
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@motor_@driver_vlg_vec_tst

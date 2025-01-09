@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at gpiotest.v(63): always construct contains both blocking and non-blocking assignments File: C:/Users/dell/Desktop/Testing Area/Simple_Led_check/gpiotest.v Line: 63

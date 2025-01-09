@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Dec 07 15:57:25 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : HardwareTesting_LFS
+Top-level Entity Name : HardwareTesting_LFS
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 1,083 / 22,320 ( 5 % )
+    Total combinational functions : 585 / 22,320 ( 3 % )
+    Dedicated logic registers : 899 / 22,320 ( 4 % )
+Total registers : 899
+Total pins : 5 / 154 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 4,992 / 608,256 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

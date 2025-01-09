@@ -1,0 +1,50 @@
+|topBlockModule
+tx <= gpiotest:inst4.tx
+clk => Frequency_Scaling:inst.clk_50M
+tx_done_led <= gpiotest:inst4.tx_done_led
+
+
+|topBlockModule|gpiotest:inst4
+clk_3125 => data_bit_sent[0].CLK
+clk_3125 => data_bit_sent[1].CLK
+clk_3125 => data_bit_sent[2].CLK
+clk_3125 => counter[0].CLK
+clk_3125 => counter[1].CLK
+clk_3125 => counter[2].CLK
+clk_3125 => counter[3].CLK
+clk_3125 => counter[4].CLK
+clk_3125 => counter[5].CLK
+clk_3125 => counter[6].CLK
+clk_3125 => counter[7].CLK
+clk_3125 => counter[8].CLK
+clk_3125 => counter[9].CLK
+clk_3125 => counter[10].CLK
+clk_3125 => counter[11].CLK
+clk_3125 => counter[12].CLK
+clk_3125 => counter[13].CLK
+clk_3125 => counter[14].CLK
+clk_3125 => counter[15].CLK
+clk_3125 => counter[16].CLK
+clk_3125 => counter[17].CLK
+clk_3125 => counter[18].CLK
+clk_3125 => counter[19].CLK
+clk_3125 => counter[20].CLK
+clk_3125 => counter[21].CLK
+clk_3125 => counter[22].CLK
+clk_3125 => counter[23].CLK
+clk_3125 => counter[24].CLK
+clk_3125 => tx_done_led~reg0.CLK
+clk_3125 => tx~reg0.CLK
+clk_3125 => state~7.DATAIN
+tx <= tx~reg0.DB_MAX_OUTPUT_PORT_TYPE
+tx_done_led <= tx_done_led~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topBlockModule|Frequency_Scaling:inst
+clk_50M => s_clk_counter[0].CLK
+clk_50M => s_clk_counter[1].CLK
+clk_50M => s_clk_counter[2].CLK
+clk_50M => adc_clk_out~reg0.CLK
+adc_clk_out <= adc_clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

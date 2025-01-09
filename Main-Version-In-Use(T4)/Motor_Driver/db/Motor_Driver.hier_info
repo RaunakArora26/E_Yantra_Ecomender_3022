@@ -1,0 +1,92 @@
+|Motor_Driver
+ENA <= pwm_generator:inst2.pwm_signal
+clk => frequency_scaler:inst.clk_50MHz
+IN1 <= pwm_generator:inst2.IN1
+IN2 <= pwm_generator:inst2.IN2
+led1 <= pwm_generator:inst2.led1
+led2 <= pwm_generator:inst2.led2
+led3 <= pwm_generator:inst2.led3
+
+
+|Motor_Driver|pwm_generator:inst2
+clk_1MHz => counter[0].CLK
+clk_1MHz => counter[1].CLK
+clk_1MHz => counter[2].CLK
+clk_1MHz => counter[3].CLK
+clk_1MHz => counter[4].CLK
+clk_1MHz => counter[5].CLK
+clk_1MHz => counter[6].CLK
+clk_1MHz => counter[7].CLK
+clk_1MHz => counter[8].CLK
+clk_1MHz => counter[9].CLK
+clk_1MHz => counter[10].CLK
+clk_1MHz => counter[11].CLK
+clk_1MHz => counter[12].CLK
+clk_1MHz => counter[13].CLK
+clk_1MHz => counter[14].CLK
+clk_1MHz => counter[15].CLK
+clk_1MHz => counter[16].CLK
+clk_1MHz => counter[17].CLK
+clk_1MHz => counter[18].CLK
+clk_1MHz => counter[19].CLK
+clk_1MHz => counter[20].CLK
+clk_1MHz => counter[21].CLK
+clk_1MHz => counter[22].CLK
+clk_1MHz => counter[23].CLK
+clk_1MHz => counter[24].CLK
+clk_1MHz => counter[25].CLK
+clk_1MHz => counter[26].CLK
+clk_1MHz => counter[27].CLK
+clk_1MHz => counter[28].CLK
+clk_1MHz => counter[29].CLK
+clk_1MHz => counter[30].CLK
+clk_1MHz => counter[31].CLK
+clk_1MHz => counter[32].CLK
+clk_1MHz => counter[33].CLK
+clk_1MHz => counter[34].CLK
+clk_1MHz => counter[35].CLK
+clk_1MHz => led3~reg0.CLK
+clk_1MHz => led2~reg0.CLK
+clk_1MHz => led1~reg0.CLK
+clk_1MHz => pulse_width[0].CLK
+clk_1MHz => pulse_width[1].CLK
+clk_1MHz => pulse_width[2].CLK
+clk_1MHz => pulse_width[3].CLK
+clk_1MHz => IN2~reg0.CLK
+clk_1MHz => IN1~reg0.CLK
+clk_1MHz => clk_500Hz~reg0.CLK
+clk_1MHz => pwm_counter[0].CLK
+clk_1MHz => pwm_counter[1].CLK
+clk_1MHz => pwm_counter[2].CLK
+clk_1MHz => pwm_counter[3].CLK
+clk_1MHz => pwm_counter[4].CLK
+clk_1MHz => pwm_counter[5].CLK
+clk_1MHz => pwm_counter[6].CLK
+clk_1MHz => pwm_counter[7].CLK
+clk_1MHz => pwm_counter[8].CLK
+clk_1MHz => pwm_counter[9].CLK
+clk_1MHz => pwm_counter[10].CLK
+clk_1MHz => pwm_counter[11].CLK
+clk_1MHz => pwm_counter[12].CLK
+clk_1MHz => pwm_counter[13].CLK
+clk_1MHz => pwm_counter[14].CLK
+clk_1MHz => state~4.DATAIN
+clk_500Hz <= clk_500Hz~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pwm_signal <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 <= IN1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+IN2 <= IN2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led1 <= led1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led2 <= led2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led3 <= led3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Motor_Driver|frequency_scaler:inst
+clk_50MHz => counter[0].CLK
+clk_50MHz => counter[1].CLK
+clk_50MHz => counter[2].CLK
+clk_50MHz => counter[3].CLK
+clk_50MHz => counter[4].CLK
+clk_50MHz => clk_1MHz~reg0.CLK
+clk_1MHz <= clk_1MHz~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

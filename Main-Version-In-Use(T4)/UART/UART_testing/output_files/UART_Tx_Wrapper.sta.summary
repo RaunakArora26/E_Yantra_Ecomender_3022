@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk_50M'
+Slack : -2.317
+TNS   : -51.425
+
+Type  : Slow 1200mV 85C Model Setup 'UART_Tx_Wrapper:u_UART_Tx_Wrapper|Frequency_Scaling:u_Frequency_Scaling|adc_clk_out'
+Slack : -2.255
+TNS   : -111.894
+
+Type  : Slow 1200mV 85C Model Hold 'UART_Tx_Wrapper:u_UART_Tx_Wrapper|Frequency_Scaling:u_Frequency_Scaling|adc_clk_out'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_50M'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_50M'
+Slack : -3.000
+TNS   : -42.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UART_Tx_Wrapper:u_UART_Tx_Wrapper|Frequency_Scaling:u_Frequency_Scaling|adc_clk_out'
+Slack : -1.000
+TNS   : -76.000
+
+Type  : Slow 1200mV 0C Model Setup 'UART_Tx_Wrapper:u_UART_Tx_Wrapper|Frequency_Scaling:u_Frequency_Scaling|adc_clk_out'
+Slack : -1.948
+TNS   : -91.401
+
+Type  : Slow 1200mV 0C Model Setup 'clk_50M'
+Slack : -1.932
+TNS   : -40.740
+
+Type  : Slow 1200mV 0C Model Hold 'UART_Tx_Wrapper:u_UART_Tx_Wrapper|Frequency_Scaling:u_Frequency_Scaling|adc_clk_out'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_50M'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_50M'
+Slack : -3.000
+TNS   : -42.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UART_Tx_Wrapper:u_UART_Tx_Wrapper|Frequency_Scaling:u_Frequency_Scaling|adc_clk_out'
+Slack : -1.000
+TNS   : -76.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk_50M'
+Slack : -0.965
+TNS   : -13.771
+
+Type  : Fast 1200mV 0C Model Setup 'UART_Tx_Wrapper:u_UART_Tx_Wrapper|Frequency_Scaling:u_Frequency_Scaling|adc_clk_out'
+Slack : -0.840
+TNS   : -30.276
+
+Type  : Fast 1200mV 0C Model Hold 'UART_Tx_Wrapper:u_UART_Tx_Wrapper|Frequency_Scaling:u_Frequency_Scaling|adc_clk_out'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_50M'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_50M'
+Slack : -3.000
+TNS   : -46.036
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UART_Tx_Wrapper:u_UART_Tx_Wrapper|Frequency_Scaling:u_Frequency_Scaling|adc_clk_out'
+Slack : -1.000
+TNS   : -76.000
+
+------------------------------------------------------------

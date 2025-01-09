@@ -1,0 +1,15 @@
+
+State Machine - |UART_Tx_Wrapperr|UART_Tx_Wrapper:u_UART_Tx_Wrapper|state
+Name state.START state.Wait state.IDLE state.DATA 
+state.DATA 0 0 0 0 
+state.IDLE 0 0 1 1 
+state.Wait 0 1 0 1 
+state.START 1 0 0 1 
+
+State Machine - |UART_Tx_Wrapperr|UART_Tx_Wrapper:u_UART_Tx_Wrapper|uart_tx:u_uart_tx|state
+Name state.PARTIY_BIT state.SENT_BIT state.START state.IDLE state.STOP 
+state.IDLE 0 0 0 0 0 
+state.START 0 0 1 1 0 
+state.SENT_BIT 0 1 0 1 0 
+state.PARTIY_BIT 1 0 0 1 0 
+state.STOP 0 0 0 1 1 

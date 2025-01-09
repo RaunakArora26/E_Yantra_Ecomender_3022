@@ -1,0 +1,9 @@
+
+State Machine - |topBlockModule|gpiotest:inst4|state
+Name state.Wait state.STOP state.PARTIY_BIT state.SENT_BIT state.START state.IDLE 
+state.IDLE 0 0 0 0 0 0 
+state.START 0 0 0 0 1 1 
+state.SENT_BIT 0 0 0 1 0 1 
+state.PARTIY_BIT 0 0 1 0 0 1 
+state.STOP 0 1 0 0 0 1 
+state.Wait 1 0 0 0 0 1 

@@ -1,0 +1,56 @@
+
+State Machine - |task_4|state
+Name state.x4 state.Expected_color_patch2G state.Expected_node9 state.wait7 state.Expected_node10 state.Expected_color_patch2R state.Expected_node11 state.Expected_color_patch2B state.Expected_node12 state.wait8 state.x2 state.wait9 state.x state.Expected_node5 state.wait4 state.wait5 state.wait6 state.Expected_node7 state.done state.Expected_color_patch1B state.Expected_node4 state.Expected_color_patch1R state.Expected_node3 state.wait3 state.Expected_node2 state.Expected_color_patch1G state.Expected_node1 state.wait1 state.Start state.Recieve_S 
+state.Recieve_S 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.wait1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.Expected_node1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.Expected_color_patch1G 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.Expected_node2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.wait3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.Expected_node3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.Expected_color_patch1R 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.Expected_node4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.Expected_color_patch1B 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.done 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.Expected_node7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.wait6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.wait5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.wait4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.Expected_node5 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.x 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.wait9 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.x2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.wait8 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.Expected_node12 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.Expected_color_patch2B 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.Expected_node11 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.Expected_color_patch2R 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.Expected_node10 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.wait7 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.Expected_node9 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.Expected_color_patch2G 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.x4 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |task_4|UART_Tx_Wrapper:u_UART_Tx_Wrapper|state
+Name state.START state.Wait state.IDLE state.DATA 
+state.DATA 0 0 0 0 
+state.IDLE 0 0 1 1 
+state.Wait 0 1 0 1 
+state.START 1 0 0 1 
+
+State Machine - |task_4|UART_Tx_Wrapper:u_UART_Tx_Wrapper|uart_tx:u_uart_tx|state
+Name state.PARTIY_BIT state.SENT_BIT state.START state.IDLE state.STOP 
+state.IDLE 0 0 0 0 0 
+state.START 0 0 1 1 0 
+state.SENT_BIT 0 1 0 1 0 
+state.PARTIY_BIT 1 0 0 1 0 
+state.STOP 0 0 0 1 1 
+
+State Machine - |task_4|uart_rx:u_uart_rx|state
+Name state.PARTIY_BIT state.READ_BIT state.START state.IDLE state.STOP 
+state.IDLE 0 0 0 0 0 
+state.START 0 0 1 1 0 
+state.READ_BIT 0 1 0 1 0 
+state.PARTIY_BIT 1 0 0 1 0 
+state.STOP 0 0 0 1 1 

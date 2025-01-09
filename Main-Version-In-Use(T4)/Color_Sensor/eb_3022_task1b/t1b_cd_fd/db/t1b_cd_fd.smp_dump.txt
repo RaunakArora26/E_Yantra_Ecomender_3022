@@ -1,0 +1,7 @@
+
+State Machine - |t1b_cd_fd|color
+Name color.11 color.10 color.01 color.00 
+color.00 0 0 0 0 
+color.01 0 0 1 1 
+color.10 0 1 0 1 
+color.11 1 0 0 1 

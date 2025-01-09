@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/dell/Desktop/E-yantra/eb_3022_tak1b/t1b_cd_fd/code/t1b_cd_fd.v
+source_file = 1, C:/Users/dell/Desktop/E-yantra/eb_3022_tak1b/t1b_cd_fd/Waveform.vwf
+source_file = 1, C:/Users/dell/Desktop/E-yantra/eb_3022_tak1b/t1b_cd_fd/db/t1b_cd_fd.cbx.xml
+design_name = t1b_cd_fd
+instance = comp, \filter[0]~output , filter[0]~output, t1b_cd_fd, 1
+instance = comp, \filter[1]~output , filter[1]~output, t1b_cd_fd, 1
+instance = comp, \color[0]~output , color[0]~output, t1b_cd_fd, 1
+instance = comp, \color[1]~output , color[1]~output, t1b_cd_fd, 1
+instance = comp, \cs_out~input , cs_out~input, t1b_cd_fd, 1
+instance = comp, \clk_1MHz~input , clk_1MHz~input, t1b_cd_fd, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
