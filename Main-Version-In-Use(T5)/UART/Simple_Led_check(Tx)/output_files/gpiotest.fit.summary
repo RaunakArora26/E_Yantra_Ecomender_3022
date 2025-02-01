@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Dec 30 16:06:21 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : gpiotest
+Top-level Entity Name : topBlockModule
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 641 / 22,320 ( 3 % )
+    Total combinational functions : 514 / 22,320 ( 2 % )
+    Dedicated logic registers : 435 / 22,320 ( 2 % )
+Total registers : 435
+Total pins : 3 / 154 ( 2 % )
+Total virtual pins : 0
+Total memory bits : 384 / 608,256 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

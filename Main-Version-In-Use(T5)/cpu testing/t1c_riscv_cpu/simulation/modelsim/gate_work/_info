@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/t1c_riscv_cpu/simulation/modelsim
+vtb
+Z1 !s110 1738431319
+!i10b 1
+!s100 [4PGAH[C:ebJKjhB^265I1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1cnA7;DDI2L;:W^jA;ijg1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1738431293
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/t1c_riscv_cpu/.test/tb.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/t1c_riscv_cpu/.test/tb.v
+!i122 1
+L0 3 245
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1738431319.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/t1c_riscv_cpu/.test/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/t1c_riscv_cpu/.test|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/t1c_riscv_cpu/.test/tb.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/t1c_riscv_cpu/.test}
+Z6 tCvgOpt 0
+vTop_check_fpga
+R1
+!i10b 1
+!s100 C_3JNH3EiGNmDmb=KblaO3
+R2
+I:oM;Vzl8=J0`ZFJOM7gNZ2
+R3
+R0
+w1738418673
+8t1c_riscv_cpu.vo
+Ft1c_riscv_cpu.vo
+!i122 0
+L0 32 343725
+R4
+r1
+!s85 0
+31
+!s108 1738431315.000000
+!s107 t1c_riscv_cpu.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|t1c_riscv_cpu.vo|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+.
+R6
+n@top_check_fpga

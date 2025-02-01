@@ -1,0 +1,590 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/simulation/modelsim
+vadder
+Z1 !s110 1737799802
+!i10b 1
+!s100 jXE67fZjiCj2W4l?`i:H?0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IBH8^KB5?g_@RI9EQ7zPmn1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1734800614
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/adder.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/adder.v
+!i122 22
+L0 4 8
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1737799802.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/adder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components}
+Z8 tCvgOpt 0
+valu
+R1
+!i10b 1
+!s100 C0NWoCVo^]1o=ancl[jg?0
+R2
+ID<OgJAjfOJffO^:6Slcog3
+R3
+R0
+w1734801032
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/alu.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/alu.v
+!i122 21
+Z9 L0 4 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/alu.v|
+!i113 1
+R6
+R7
+R8
+valu_decoder
+Z10 !s110 1737799801
+!i10b 1
+!s100 =7FkMGD0Hc1BkV:L9;g0I0
+R2
+IzI]<]L]S45?NbG7Rljm<E1
+R3
+R0
+w1734801013
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/alu_decoder.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/alu_decoder.v
+!i122 20
+L0 4 35
+R4
+r1
+!s85 0
+31
+Z11 !s108 1737799801.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/alu_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/alu_decoder.v|
+!i113 1
+R6
+R7
+R8
+vbranching_unit
+Z12 !s110 1737799797
+!i10b 1
+!s100 30O8K=:^TiQT3KP=?ZZ^A2
+R2
+I_>gJL8O>ffzGLLm0zBF@J2
+R3
+R0
+w1734801938
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/branching_unit.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/branching_unit.v
+!i122 11
+L0 4 23
+R4
+r1
+!s85 0
+31
+Z13 !s108 1737799797.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/branching_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/branching_unit.v|
+!i113 1
+R6
+R7
+R8
+vcontroller
+R10
+!i10b 1
+!s100 DUbDfC0[NeU8KJdPN@<=:3
+R2
+ITZ;1X2=19<XAAeQIcebel1
+R3
+R0
+w1734800980
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/controller.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/controller.v
+!i122 19
+Z14 L0 4 20
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/controller.v|
+!i113 1
+R6
+R7
+R8
+vdata_mem
+Z15 !s110 1737799796
+!i10b 1
+!s100 LEWXXhS6C[1ImT[n:>QWD2
+R2
+IaFCnWcAbkzlB7OFnLCE101
+R3
+R0
+w1734800877
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/data_mem.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/data_mem.v
+!i122 9
+L0 4 77
+R4
+r1
+!s85 0
+31
+Z16 !s108 1737799796.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/data_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/data_mem.v|
+!i113 1
+R6
+Z17 !s92 -vlog01compat -work work {+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code}
+R8
+vdatapath
+Z18 !s110 1737799800
+!i10b 1
+!s100 R:UlRdXQfE`ZLg:4NIaQB0
+R2
+IV9K=[]0mhA`jHH;QdV@M?2
+R3
+R0
+w1735160521
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/datapath.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/datapath.v
+!i122 18
+L0 3 191
+R4
+r1
+!s85 0
+31
+Z19 !s108 1737799800.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/datapath.v|
+!i113 1
+R6
+R7
+R8
+vhazardUnit
+Z20 !s110 1737799794
+!i10b 1
+!s100 ef`9YfNWjf>@zFK@eM9CR0
+R2
+I0bOG[63=kXj63KG5KeVFz1
+R3
+R0
+w1735156440
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/hazardUnit.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/hazardUnit.v
+!i122 5
+L0 1 45
+R4
+r1
+!s85 0
+31
+Z21 !s108 1737799794.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/hazardUnit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/hazardUnit.v|
+!i113 1
+R6
+R7
+R8
+nhazard@unit
+vimm_extend
+R18
+!i10b 1
+!s100 KCY0HN8a_SDDT@o^3341e2
+R2
+IFIX74T6?7Sf9g]4zo[WY60
+R3
+R0
+Z22 w1734341698
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/imm_extend.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/imm_extend.v
+!i122 17
+L0 3 21
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/imm_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/imm_extend.v|
+!i113 1
+R6
+R7
+R8
+vinstr_mem
+R15
+!i10b 1
+!s100 mRUGhbLWLlGJ<=RU3MX[n0
+R2
+ImbOS@jfJ1kQz02E?i=fkh0
+R3
+R0
+w1737798020
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/instr_mem.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/instr_mem.v
+!i122 8
+L0 4 277
+R4
+r1
+!s85 0
+31
+Z23 !s108 1737799795.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/instr_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/instr_mem.v|
+!i113 1
+R6
+R17
+R8
+vmain_decoder
+R18
+!i10b 1
+!s100 3i;a3A6g6UO7Rz4]KEW112
+R2
+IN6AC;`^MZEfK0EdG60B^W2
+R3
+R0
+R22
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/main_decoder.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/main_decoder.v
+!i122 16
+L0 4 32
+R4
+r1
+!s85 0
+31
+Z24 !s108 1737799799.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/main_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/main_decoder.v|
+!i113 1
+R6
+R7
+R8
+vmux2
+Z25 !s110 1737799799
+!i10b 1
+!s100 O<Ld`3jD6QL?6PIEe_QAk1
+R2
+I86m^5h<;>9`MgQX[hF[1R0
+R3
+R0
+R22
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/mux2.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/mux2.v
+!i122 15
+Z26 L0 4 9
+R4
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/mux2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/mux2.v|
+!i113 1
+R6
+R7
+R8
+vmux4
+R25
+!i10b 1
+!s100 V4YdM>hK^I8CMb?cH8Cej3
+R2
+ImgPdUi7hXE8RBJTQ<TgJb2
+R3
+R0
+R22
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/mux4.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/mux4.v
+!i122 14
+R26
+R4
+r1
+!s85 0
+31
+Z27 !s108 1737799798.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/mux4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/mux4.v|
+!i113 1
+R6
+R7
+R8
+vpl_reg_de
+Z28 !s110 1737799793
+!i10b 1
+!s100 bD_HmgfTX`@OT5C2D>TiM2
+R2
+IF`L@46EGF>4FTAA`Y8B]<0
+R3
+R0
+w1735152811
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_de.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_de.v
+!i122 4
+L0 3 47
+R4
+r1
+!s85 0
+31
+Z29 !s108 1737799793.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_de.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_de.v|
+!i113 1
+R6
+R7
+R8
+vpl_reg_em
+R28
+!i10b 1
+!s100 PZcXTHo^UocJUMoZ806SO1
+R2
+I<m1Z3WiVONQV5CZCZc_PV2
+R3
+R0
+w1735160447
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_em.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_em.v
+!i122 3
+L0 4 34
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_em.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_em.v|
+!i113 1
+R6
+R7
+R8
+vpl_reg_fd
+R12
+!i10b 1
+!s100 ADIIo<HezPEF76;fIF<8?0
+R2
+I1=B;bUC1X?[k42RTWUa]R2
+R3
+R0
+w1734341697
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_fd.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_fd.v
+!i122 10
+R14
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_fd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_fd.v|
+!i113 1
+R6
+R7
+R8
+vpl_reg_mw
+Z30 !s110 1737799792
+!i10b 1
+!s100 NXgFjP?3`>b_ieFYi:G2<2
+R2
+IBb3O5<eZKh<9m6n?Eo[al2
+R3
+R0
+w1735063682
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_mw.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_mw.v
+!i122 2
+L0 4 31
+R4
+r1
+!s85 0
+31
+!s108 1737799792.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_mw.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/pl_reg_mw.v|
+!i113 1
+R6
+R7
+R8
+vpl_riscv_cpu
+R20
+!i10b 1
+!s100 FhEj4zPPSZ_mX9L6PCVI82
+R2
+I>SIIbXeOF?mHoYQUKSd__0
+R3
+R0
+w1737798451
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/pl_riscv_cpu.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/pl_riscv_cpu.v
+!i122 6
+L0 4 64
+R4
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/pl_riscv_cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/pl_riscv_cpu.v|
+!i113 1
+R6
+R17
+R8
+vRead_controller
+R30
+!i10b 1
+!s100 X_;;]@;16?>oefGV0QA7l3
+R2
+IfPhlH0DDWAmXm3N_480:F1
+R3
+R0
+w1737798551
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/Read_controller.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/Read_controller.v
+!i122 1
+L0 2 72
+R4
+r1
+!s85 0
+31
+Z31 !s108 1737799791.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/Read_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/Read_controller.v|
+!i113 1
+R6
+R17
+R8
+n@read_controller
+vReadWrite_controller
+!s110 1737799791
+!i10b 1
+!s100 Lk>@OTloH_@ogPHJe4lVA0
+R2
+I5]bcGDC`0l2R10BgJ[G960
+R3
+R0
+w1737798548
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/ReadWrite_controller.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/ReadWrite_controller.v
+!i122 0
+L0 2 98
+R4
+r1
+!s85 0
+31
+R31
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/ReadWrite_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/ReadWrite_controller.v|
+!i113 1
+R6
+R17
+R8
+n@read@write_controller
+vreg_file
+!s110 1737799798
+!i10b 1
+!s100 hDfJeCPL76ldZ`N?EoZ[a3
+R2
+I_klgH;[:bWfazNf_zafEK2
+R3
+R0
+R22
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/reg_file.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/reg_file.v
+!i122 13
+L0 8 24
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/reg_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/reg_file.v|
+!i113 1
+R6
+R7
+R8
+vreset_ff
+R12
+!i10b 1
+!s100 >;b:dIN?F0PSR=d_17OQU2
+R2
+IQOTNI7=5d7VXePAZ?hi?A1
+R3
+R0
+R22
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/reset_ff.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/reset_ff.v
+!i122 12
+L0 4 16
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/reset_ff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/components/reset_ff.v|
+!i113 1
+R6
+R7
+R8
+vriscv_cpu
+!s110 1737799795
+!i10b 1
+!s100 Oklf5^01cNo0o2?jNNi9P2
+R2
+IXXPfzOFI^J=b_md`ig[i60
+R3
+R0
+w1735161977
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/riscv_cpu.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/riscv_cpu.v
+!i122 7
+R9
+R4
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/riscv_cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/code/riscv_cpu.v|
+!i113 1
+R6
+R17
+R8
+vtb
+!s110 1737799803
+!i10b 1
+!s100 54`52cD4]?;zGPCA;:63i2
+R2
+IaOmFUHIU2H3Ibj;;kdIRL0
+R3
+R0
+w1735161410
+8C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/.test/tb.v
+FC:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/.test/tb.v
+!i122 23
+L0 3 521
+R4
+r1
+!s85 0
+31
+!s108 1737799803.000000
+!s107 C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/.test/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/.test|C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/.test/tb.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work {+incdir+C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/cpu testing/pl_riscv_cpu/.test}
+R8

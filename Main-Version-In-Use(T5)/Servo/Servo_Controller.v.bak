@@ -1,0 +1,9 @@
+
+
+module Servo_Controller(
+		 input clk_50MHz,
+		 input ir,
+    output reg pwm_signal1,
+	 output reg pwm_signal2,
+	 output reg led = 0
+);

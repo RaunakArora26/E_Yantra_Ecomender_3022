@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pwm_signal1",
+					"strict" : false
+				},
+				{
+					"name" : "pwm_signal2",
+					"strict" : false
+				},
+				{
+					"name" : "led",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50MHz",
+					"strict" : false
+				},
+				{
+					"name" : "ir",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

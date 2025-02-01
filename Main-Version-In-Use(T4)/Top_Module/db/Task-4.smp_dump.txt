@@ -33,11 +33,11 @@ state.Expected_color_patch2G 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 state.x4 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
 
 State Machine - |task_4|UART_Tx_Wrapper:u_UART_Tx_Wrapper|state
-Name state.START state.Wait state.IDLE state.DATA 
-state.DATA 0 0 0 0 
-state.IDLE 0 0 1 1 
-state.Wait 0 1 0 1 
-state.START 1 0 0 1 
+Name state.11 state.10 state.01 state.00 
+state.00 0 0 0 0 
+state.01 0 0 1 1 
+state.10 0 1 0 1 
+state.11 1 0 0 1 
 
 State Machine - |task_4|UART_Tx_Wrapper:u_UART_Tx_Wrapper|uart_tx:u_uart_tx|state
 Name state.PARTIY_BIT state.SENT_BIT state.START state.IDLE state.STOP 

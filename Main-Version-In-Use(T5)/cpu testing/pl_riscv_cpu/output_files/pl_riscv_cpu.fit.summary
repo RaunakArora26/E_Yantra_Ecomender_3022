@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Jan 25 15:37:04 2025
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : pl_riscv_cpu
+Top-level Entity Name : Top_check_fpga
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 6,353 / 22,320 ( 28 % )
+    Total combinational functions : 4,272 / 22,320 ( 19 % )
+    Dedicated logic registers : 4,172 / 22,320 ( 19 % )
+Total registers : 4172
+Total pins : 2 / 154 ( 1 % )
+Total virtual pins : 0
+Total memory bits : 14,685 / 608,256 ( 2 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

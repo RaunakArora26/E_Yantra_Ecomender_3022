@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE22F17) Path("C:/Users/dell/Desktop/Testing Area/Simple_Led_check/output_files/") File("gpiotest.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE22) Path("C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T4)/UART/Simple_Led_check(Tx)/") File("output_file.jic") MfrSpec(OpMask(1) SEC_Device(EPCS64) Child_OpMask(1 1));
 
 ChainEnd;
 

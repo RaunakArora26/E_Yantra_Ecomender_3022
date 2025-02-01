@@ -1,0 +1,12 @@
+
+State Machine - |t1c_riscv_cpu|ReadWrite_controller:u_ReadWrite_controller|state
+Name state.Write_NP_2 state.waitNP_2 state.Write_NP_1 state.waitEP_NP_1 state.Write_EP state.waitSP_EP state.Write_SP state.Prepare state.waitNP_3 
+state.Prepare 0 0 0 0 0 0 0 0 0 
+state.Write_SP 0 0 0 0 0 0 1 1 0 
+state.waitSP_EP 0 0 0 0 0 1 0 1 0 
+state.Write_EP 0 0 0 0 1 0 0 1 0 
+state.waitEP_NP_1 0 0 0 1 0 0 0 1 0 
+state.Write_NP_1 0 0 1 0 0 0 0 1 0 
+state.waitNP_2 0 1 0 0 0 0 0 1 0 
+state.Write_NP_2 1 0 0 0 0 0 0 1 0 
+state.waitNP_3 0 0 0 0 0 0 0 1 1 

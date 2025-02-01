@@ -1,0 +1,30 @@
+
+module top(
+	input clk_50M,
+	output tx
+);
+
+
+
+
+UART_Tx_Wrapper u_UART_Tx_Wrapper(
+    .clk_50M ( clk_50M ),
+    .data0   ( data0   ),
+    .data1   ( data1   ),
+    .data2   ( data2   ),
+    .data3   ( data3   ),
+    .data4   ( data4   ),
+    .data5   ( data5   ),
+    .data6   ( data6   ),
+    .data7   ( data7   ),
+    .data8   ( data8   ),
+    .data9   ( data9   ),
+    .data10  ( data10  ),
+    .data11  ( data11  ),
+    .data12  ( data12  ),
+    .data13  ( data13  ),
+    .tx      ( tx      )
+);
+
+
+endmodule

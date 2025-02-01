@@ -1,0 +1,157 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "path0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[8]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[9]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[10]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[11]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[12]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[13]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[14]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[15]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[16]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[17]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[18]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[19]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[20]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[21]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[22]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[23]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[24]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[25]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[26]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[27]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[28]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[29]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[30]",
+					"strict" : false
+				},
+				{
+					"name" : "path0[31]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+|Servo_Controller
+clk_50MHz => counter[0].CLK
+clk_50MHz => counter[1].CLK
+clk_50MHz => counter[2].CLK
+clk_50MHz => counter[3].CLK
+clk_50MHz => counter[4].CLK
+clk_50MHz => clk_1MHz.CLK
+clk_50MHz => led~reg0.CLK
+ir => led~reg0.DATAIN
+pwm_signal <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+led <= led~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

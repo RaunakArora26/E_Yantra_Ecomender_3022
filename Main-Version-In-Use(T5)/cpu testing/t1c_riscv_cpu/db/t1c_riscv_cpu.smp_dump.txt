@@ -1,0 +1,5 @@
+
+State Machine - |Top_check_fpga|t1c_riscv_cpu:u_t1c_riscv_cpu|state
+Name state.0001 
+state.0000 0 
+state.0001 1 

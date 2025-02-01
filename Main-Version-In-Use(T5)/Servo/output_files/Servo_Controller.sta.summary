@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk_50MHz'
+Slack : -2.170
+TNS   : -50.464
+
+Type  : Slow 1200mV 85C Model Setup 'Base_Controller:u1_Base_Controller|clk_1MHz'
+Slack : -1.852
+TNS   : -27.774
+
+Type  : Slow 1200mV 85C Model Setup 'Base_Controller:u2_Base_Controller|clk_1MHz'
+Slack : -1.793
+TNS   : -26.421
+
+Type  : Slow 1200mV 85C Model Hold 'clk_50MHz'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Base_Controller:u1_Base_Controller|clk_1MHz'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Base_Controller:u2_Base_Controller|clk_1MHz'
+Slack : 0.346
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_50MHz'
+Slack : -3.000
+TNS   : -44.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Base_Controller:u1_Base_Controller|clk_1MHz'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Base_Controller:u2_Base_Controller|clk_1MHz'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk_50MHz'
+Slack : -1.874
+TNS   : -40.562
+
+Type  : Slow 1200mV 0C Model Setup 'Base_Controller:u1_Base_Controller|clk_1MHz'
+Slack : -1.530
+TNS   : -22.633
+
+Type  : Slow 1200mV 0C Model Setup 'Base_Controller:u2_Base_Controller|clk_1MHz'
+Slack : -1.459
+TNS   : -21.604
+
+Type  : Slow 1200mV 0C Model Hold 'clk_50MHz'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Base_Controller:u1_Base_Controller|clk_1MHz'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Base_Controller:u2_Base_Controller|clk_1MHz'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_50MHz'
+Slack : -3.000
+TNS   : -44.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Base_Controller:u1_Base_Controller|clk_1MHz'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Base_Controller:u2_Base_Controller|clk_1MHz'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk_50MHz'
+Slack : -0.745
+TNS   : -12.395
+
+Type  : Fast 1200mV 0C Model Setup 'Base_Controller:u1_Base_Controller|clk_1MHz'
+Slack : -0.621
+TNS   : -8.468
+
+Type  : Fast 1200mV 0C Model Setup 'Base_Controller:u2_Base_Controller|clk_1MHz'
+Slack : -0.569
+TNS   : -7.566
+
+Type  : Fast 1200mV 0C Model Hold 'clk_50MHz'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Base_Controller:u1_Base_Controller|clk_1MHz'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Base_Controller:u2_Base_Controller|clk_1MHz'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_50MHz'
+Slack : -3.000
+TNS   : -46.477
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Base_Controller:u1_Base_Controller|clk_1MHz'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Base_Controller:u2_Base_Controller|clk_1MHz'
+Slack : -1.000
+TNS   : -17.000
+
+------------------------------------------------------------

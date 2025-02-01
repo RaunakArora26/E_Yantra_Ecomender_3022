@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at pwm_generator.v(42): always construct contains both blocking and non-blocking assignments File: C:/Users/dell/Desktop/Final_E-Yantra/Main-Version-In-Use(T5)/Servo/pwm_generator.v Line: 42

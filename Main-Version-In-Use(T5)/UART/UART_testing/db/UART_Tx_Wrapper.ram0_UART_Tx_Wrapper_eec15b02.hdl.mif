@@ -1,0 +1,17 @@
+-- begin_signature
+-- UART_Tx_Wrapper
+-- end_signature
+WIDTH=8;
+DEPTH=6;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	5 :	01101011;
+	4 :	01100001;
+	3 :	01101110;
+	2 :	01110101;
+	1 :	01100001;
+	0 :	01010010;
+END;
