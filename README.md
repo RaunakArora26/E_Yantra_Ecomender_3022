@@ -1,5 +1,5 @@
 # E_Yantra_Ecomender_3022
-
+Working yt video - https://youtu.be/D7v9yjRLKuk
 
 Here's some bot images -
 ![20241220_181551](https://github.com/user-attachments/assets/c3b1159c-98b6-43af-b306-2252dee775a4)
